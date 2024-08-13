@@ -54,7 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				73F1A5D92C6AF191003C2938 /* GoogleService-Info.plist */,
-				73F1A5D82C6AF182003C2938 /* plist */,
 				73F1A5C82C6AEF29003C2938 /* githubtest_suslmkApp.swift */,
 				73F1A5CA2C6AEF29003C2938 /* ContentView.swift */,
 				73F1A5CC2C6AEF2C003C2938 /* Assets.xcassets */,
@@ -69,13 +68,6 @@
 				73F1A5CF2C6AEF2C003C2938 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		73F1A5D82C6AF182003C2938 /* plist */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
