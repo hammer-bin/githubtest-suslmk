@@ -11,6 +11,7 @@
 		73F1A5CB2C6AEF29003C2938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F1A5CA2C6AEF29003C2938 /* ContentView.swift */; };
 		73F1A5CD2C6AEF2C003C2938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F1A5CC2C6AEF2C003C2938 /* Assets.xcassets */; };
 		73F1A5D02C6AEF2C003C2938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73F1A5CF2C6AEF2C003C2938 /* Preview Assets.xcassets */; };
+		73F1A5DA2C6AF191003C2938 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73F1A5D92C6AF191003C2938 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		73F1A5CA2C6AEF29003C2938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		73F1A5CC2C6AEF2C003C2938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73F1A5CF2C6AEF2C003C2938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		73F1A5D92C6AF191003C2938 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		73F1A5C72C6AEF29003C2938 /* githubtest-suslmk */ = {
 			isa = PBXGroup;
 			children = (
+				73F1A5D92C6AF191003C2938 /* GoogleService-Info.plist */,
+				73F1A5D82C6AF182003C2938 /* plist */,
 				73F1A5C82C6AEF29003C2938 /* githubtest_suslmkApp.swift */,
 				73F1A5CA2C6AEF29003C2938 /* ContentView.swift */,
 				73F1A5CC2C6AEF2C003C2938 /* Assets.xcassets */,
@@ -65,6 +69,13 @@
 				73F1A5CF2C6AEF2C003C2938 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73F1A5D82C6AF182003C2938 /* plist */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = plist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				73F1A5D02C6AEF2C003C2938 /* Preview Assets.xcassets in Resources */,
 				73F1A5CD2C6AEF2C003C2938 /* Assets.xcassets in Resources */,
+				73F1A5DA2C6AF191003C2938 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
